@@ -44,13 +44,13 @@ A Python implementation of a secure routing protocol for Vehicular Ad Hoc Networ
 2. Install Python dependencies:
   ```bash
 pip install -r requirements.txt
-
+```
 3. Build NS-3 with Python bindings:
   ```bash
  1 cd ns-3-dev
  2 ./ns3 configure --enable-python-bindings
  3 ./ns3 build
-
+```
 ### To Run
 
 1. Run the simulation:
@@ -59,6 +59,7 @@ pip install -r requirements.txt
 2. Run NS-3 integration:
   ```bash
 python ns3_integration.py
-
-#### Results
+```
+### Results
 The simulation results, including network topology, vehicle movements, and performance metrics, will be saved in the output directory.
+```
