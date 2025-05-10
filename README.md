@@ -38,15 +38,15 @@ A Python implementation of a secure routing protocol for Vehicular Ad Hoc Networ
 ## Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/vanet-secure-routing.git
+   ```bash
+   git clone https://github.com/Banarji03/VANET-Security-NS3.git
 
 2. Install Python dependencies:
-```bash
+  ```bash
 pip install -r requirements.txt
 
 3. Build NS-3 with Python bindings:
-```bash
+  ```bash
  1 cd ns-3-dev
  2 ./ns3 configure --enable-python-bindings
  3 ./ns3 build
@@ -57,7 +57,7 @@ pip install -r requirements.txt
    ```bash
    python main.py
 2. Run NS-3 integration:
-```bash
+  ```bash
 python ns3_integration.py
 
 #### Results
