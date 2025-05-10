@@ -1,0 +1,11 @@
+ns-3-dev/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.vscode/
+*.log
